@@ -28,3 +28,7 @@ Route::resource('locations', 'backend\LocationController');
 Route::resource('subcategories', 'backend\SubcategoryController');
 
 Route::resource('rooms', 'backend\RoomController');
+
+Route::get('/get',function(){
+	echo "<h1>Made a conflit</h1>";
+});
